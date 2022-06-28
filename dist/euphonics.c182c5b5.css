@@ -1,0 +1,118 @@
+body {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: auto;
+  background-color: #000;
+  margin-top: 2%;
+  overflow-x: hidden;
+}
+
+#nameTitle {
+  white-space: nowrap;
+  min-height: 10em;
+  vertical-align: middle;
+  margin-top: auto;
+  line-height: 25px;
+  display: table-cell;
+  position: absolute;
+  top: 55%;
+  left: 45vw;
+}
+
+#topName {
+  color: #983fe0;
+  letter-spacing: 5px;
+  font-family: rubik, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+#makeWhite {
+  color: #a7a7a7;
+  font-family: jubilat-thin, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+#nameTitle {
+  text-align: center;
+  margin-top: auto;
+  position: fixed;
+  top: 53%;
+}
+
+h2 {
+  color: #4a4a4a;
+  white-space: nowrap;
+  text-shadow: 0 0 2px #e6e6e6;
+  font-size: 12px;
+  position: relative;
+}
+
+#underName {
+  text-align: center;
+  color: #6bd3f9;
+  font-family: jubilat-thin, serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 1px;
+  position: relative;
+}
+
+@media (max-width: 1000px), (max-height: 500px) {
+  .text {
+    margin-bottom: .8vh;
+  }
+
+  h2 {
+    white-space: nowrap;
+    letter-spacing: 5px;
+    font-size: 12px;
+    display: inline;
+  }
+
+  #divideLine {
+    color: #747474;
+    font-family: jubilat-thin, serif;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  body {
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+
+  #footer {
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 500px) {
+  h1 {
+    white-space: nowrap;
+  }
+
+  body {
+    overflow-x: scroll;
+  }
+
+  #footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=euphonics.c182c5b5.css.map */

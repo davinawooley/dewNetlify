@@ -1,0 +1,20 @@
+{
+  "name": "dewportfolio",
+  "version": "1.0.0",
+  "description": "dew portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.1",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "three": "^0.141.0",
+    "three-gltf-loader": "^1.111.0"
+  }
+}
