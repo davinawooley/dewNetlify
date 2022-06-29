@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Experiments | DEW</title>
-    <link rel="shortcut icon" type="image/png" href="/designfavicon.96e9f13c.svg" sizes="32x32">
-    <link href="/experiments.b4b44a9f.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="/designfavicon.7ed1867c.svg" sizes="32x32">
+    <link href="/experiments.b09f8ecc.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/jil3vcw.css">
    
     <link rel="stylesheet" href="https://use.typekit.net/osf7jzq.css">
@@ -17,14 +17,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-31QNDERZ67"></script>
 <script>window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag("js", new Date());
-gtag("config", "G-31QNDERZ67");
 
-</script>
-</head>
+function gtag() {
+  dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+gtag('config', 'G-31QNDERZ67');</script>
+<script src="/experiments.b09f8ecc.js"></script><script src="/index.js"></script></head>
 
 <body>
     
@@ -54,7 +54,7 @@ gtag("config", "G-31QNDERZ67");
 
 
 <div id="large">
-    <a href="/index.html"><img id="homeIcon" src="/dewLogo.aa62ea04.png" width="50px" style="float: left"></a>
+    <a href="/index.html"><img id="homeIcon" src="/dewLogo.716555a3.png" width="50px" style="float:left;"></a>
     <div class="menu-wrap2">
    
         <div class="menu2">
@@ -90,7 +90,7 @@ gtag("config", "G-31QNDERZ67");
                     <br><br> These experiments represent years of fun, a bit of frustration, and a lot of growth. Enjoy! :)
                     <br><br>
 
-                    </p><div id="toTop">
+                    <div id="toTop">
         
                             <p class="animate__animated animate__fadeIn" id="navigateWork"> Categories:
                                 <button id="show_all" onclick="show_all()" class="bottom" href="https://drive.google.com/file/d/1pG5o7KvmB4xyxQlgZZIeh7D8_e8zE_ix/view?usp=sharing" onmouseover="this.bgColor='white'; this.style.color='#a1a1a1'" onmouseout="this.bgColor='#4c4c4c'; this.style.color='#4c4c4c'" target="_blank ">All</button>
@@ -110,16 +110,14 @@ gtag("config", "G-31QNDERZ67");
                         <p id="featured">* Featured Works</p>
                     </div>
 
-                    </div>
+                    </p></div>
 
 
                     <div class="item_wrapper ">
                         <br><br>
-                        <script type="text/javascript">function confirm_alert(node) {
-    return confirm("Coming Soon!");
-}
-
-</script>
+                        <script>function confirm_alert(node) {
+  return confirm("Coming Soon!");
+}</script>
                            
                         <div class="item ui">
                             <p class="titleWork">
@@ -189,73 +187,101 @@ gtag("config", "G-31QNDERZ67");
 
                     <!-- function for sort -->
                     <script>//find all elements tagged "ui "
-var ui = document.querySelectorAll(".ui");
-//find all elements tagged "software "
-var software = document.querySelectorAll(".software");
-//find all elements tagged "threeD "
-var threeD = document.querySelectorAll(".threeD");
-//find all elements tagged "print "
-var print = document.querySelectorAll(".print");
-//find all elements tagged "motion "
-var motion = document.querySelectorAll(".motion");
-//find all elements tagged "hardware "
-var hardware = document.querySelectorAll(".hardware");
-//find all elements tagged "professional "
-var professional = document.querySelectorAll(".professional");
-//find all elements with "item " class
-var alls = document.querySelectorAll(".item");
-//function to initially loop through all items and hide them
+var ui = document.querySelectorAll('.ui'); //find all elements tagged "software "
+
+var software = document.querySelectorAll('.software'); //find all elements tagged "threeD "
+
+var threeD = document.querySelectorAll('.threeD'); //find all elements tagged "print "
+
+var print = document.querySelectorAll('.print'); //find all elements tagged "motion "
+
+var motion = document.querySelectorAll('.motion'); //find all elements tagged "hardware "
+
+var hardware = document.querySelectorAll('.hardware'); //find all elements tagged "professional "
+
+var professional = document.querySelectorAll('.professional'); //find all elements with "item " class
+
+var alls = document.querySelectorAll('.item'); //function to initially loop through all items and hide them
+
 function hide_init() {
-    for(var i = 0; i < alls.length; ++i)alls[i].style.display = "none";
-}
-function show_ui() {
-    //call the inital hide function
-    hide_init();
-    //loop through ui-tagged items and show them  
-    for(var i = 0; i < ui.length; ++i)ui[i].style.display = "inline";
-}
-function show_software() {
-    //call the inital hide function
-    hide_init();
-    //loop through software-tagged items and show them  
-    for(var i = 0; i < software.length; ++i)software[i].style.display = "inline";
-}
-// 3d
-function show_threeD() {
-    //call the inital hide function
-    hide_init();
-    //loop through threeD-tagged items and show them  
-    for(var i = 0; i < threeD.length; ++i)threeD[i].style.display = "inline";
-}
-// print
-function show_print() {
-    //call the inital hide function
-    hide_init();
-    for(var i = 0; i < print.length; ++i)print[i].style.display = "inline";
-}
-// hardware
-function show_hardware() {
-    //call the inital hide function
-    hide_init();
-    for(var i = 0; i < hardware.length; ++i)hardware[i].style.display = "inline";
-}
-// motion
-function show_motion() {
-    //call the inital hide function
-    hide_init();
-    for(var i = 0; i < motion.length; ++i)motion[i].style.display = "inline";
-}
-// professional
-function show_professional() {
-    //call the inital hide function
-    hide_init();
-    for(var i = 0; i < professional.length; ++i)professional[i].style.display = "inline";
-}
-function show_all() {
-    for(var i = 0; i < alls.length; ++i)alls[i].style.display = "inline                                                                                                                                        ";
+  for (var i = 0; i < alls.length; ++i) {
+    alls[i].style.display = 'none';
+  }
 }
 
-</script>
+function show_ui() {
+  //call the inital hide function
+  hide_init(); //loop through ui-tagged items and show them  
+
+  for (var i = 0; i < ui.length; ++i) {
+    ui[i].style.display = 'inline';
+  }
+}
+
+function show_software() {
+  //call the inital hide function
+  hide_init(); //loop through software-tagged items and show them  
+
+  for (var i = 0; i < software.length; ++i) {
+    software[i].style.display = 'inline';
+  }
+} // 3d
+
+
+function show_threeD() {
+  //call the inital hide function
+  hide_init(); //loop through threeD-tagged items and show them  
+
+  for (var i = 0; i < threeD.length; ++i) {
+    threeD[i].style.display = 'inline';
+  }
+} // print
+
+
+function show_print() {
+  //call the inital hide function
+  hide_init();
+
+  for (var i = 0; i < print.length; ++i) {
+    print[i].style.display = 'inline';
+  }
+} // hardware
+
+
+function show_hardware() {
+  //call the inital hide function
+  hide_init();
+
+  for (var i = 0; i < hardware.length; ++i) {
+    hardware[i].style.display = 'inline';
+  }
+} // motion
+
+
+function show_motion() {
+  //call the inital hide function
+  hide_init();
+
+  for (var i = 0; i < motion.length; ++i) {
+    motion[i].style.display = 'inline';
+  }
+} // professional
+
+
+function show_professional() {
+  //call the inital hide function
+  hide_init();
+
+  for (var i = 0; i < professional.length; ++i) {
+    professional[i].style.display = 'inline';
+  }
+}
+
+function show_all() {
+  for (var i = 0; i < alls.length; ++i) {
+    alls[i].style.display = 'inline                                                                                                                                        ';
+  }
+}</script>
 
             </div>
         
@@ -269,41 +295,42 @@ function show_all() {
     
 
     <style>#myBtn {
-  z-index: 99;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  padding: 15px;
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-}
-
-</style>
+          display: none;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          z-index: 99;
+          border: none;
+          outline: none;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }</style>
     
-    <button onclick="topFunction()" id="myBtn" title="Scroll to Top" class="back-to-top-link"><img src="/upArrow.237b1898.png" width="30px"></button>
+    <button onclick="topFunction()" id="myBtn" title="Scroll to Top" class="back-to-top-link"><img src="/upArrow.c569e371.png" width="30px"></button>
     <!-- </div> -->
     
     <script>//Get the button
-var mybutton = document.getElementById("myBtn");
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {
-    scrollFunction();
-};
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) mybutton.style.display = "block";
-    else mybutton.style.display = "none";
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+var mybutton = document.getElementById("myBtn"); // When the user scrolls down 20px from the top of the document, show the button
 
-</script>
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+} // When the user clicks on the button, scroll to the top of the document
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}</script>
 
     <div id="footer">
         <span title="Navigate to Behance">
